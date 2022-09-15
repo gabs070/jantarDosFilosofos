@@ -84,6 +84,4 @@ void verificacao(int filosofoID) {  // Verificacao
   }
 }
 
-// É resolvido o problema da comunicação inter processos (IPC), com a implementação de semáforos, 
-// os quais garantem que cada garfo seja pego por um filosofo de cada vez, impedindo que ocorra deadlock e starvation. 
-// Por meio do sem_wait e do sem_post, os quais bloqueiam e desbloqueiam o semaforo (green light e red light)
+// É resolvido o problema da comunicação inter processos (IPC), com a implementação de semáforos, os quais garantem que cada garfo seja pego por um filosofo de cada vez, impedindo que ocorra deadlock e starvation. Por meio do sem_wait e do sem_post, os quais bloqueiam e desbloqueiam o semaforo (green light e red light)
