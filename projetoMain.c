@@ -33,7 +33,7 @@ int main() {  // Main
     sem_init(&semaforo2[i], 0, 0); // Inicia o semaforo
   for (i=0; i<N; i++) {
     pthread_create(&thread_id[i], NULL, filosofo, &filosofoID[i]);
-    //criar as threads
+    //Cria as threads
     printf("O %dº Filósofo esta pensando...\n", i + 1);
   } 
   for (i=0; i<N; i++)
